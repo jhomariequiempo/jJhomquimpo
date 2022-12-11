@@ -1,0 +1,4 @@
+def display_all():
+    print("SNO\tProdcut\t\tIn Stock\tPrice")
+    for item in all_products:
+        print("{0}\t{1}\t{2}\t\t{3}".format(item[0], item[1], item[2], item[3]))
