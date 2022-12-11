@@ -7,5 +7,5 @@
    link:https://github.com/jhomariequiempo/Inventorysystem
    
 ## Authors and acknowledgement
-   This simple code is created by one person only named (Jhomarie Quiempo) and Big tankyou to our Teacher who teach us on how to use phyton code and the propper usses of it.
+   This simple code is created by one person only named (Jhomarie Quiempo) and Big thankyou to our Teacher who teach us on how to use phyton code and the propper usses of it.
  
