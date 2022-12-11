@@ -2,4 +2,4 @@
    Inventory System
   
 ## Background
-   This project (Inventory System) used to manage store product and keep track of all goods stock
+   This project https://github.com/jhomariequiempo/Inventorysystem used to manage store product and keep track of all goods stock
