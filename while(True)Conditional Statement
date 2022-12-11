@@ -1,0 +1,39 @@
+
+while(True):
+    banner()
+    choice = int(input())
+    if choice == 1:
+        display_all()
+    elif choice == 2:
+        display_all()
+        prod_id = int(input("Enter the Product ID: "))
+        for item in all_products:
+            if item[0] == prod_id:
+                name = input("Customer Name: ")
+                order_summary(item, name)
+                cnf = input("Confirm the Order(Y/N)")
+                if cnf == 'Y':
+                    item[2] -= 1
+                    generate_bill(item, name)
+                    print("Thanks For shopping with Us")
+                    sys.exit(0)
+                else:
+                    print("Continue Exploring the shop")
+    elif choice == 3:
+        username = input("Enter Admin UserID: ")
+        password = input("Enter the Password: ")
+        if username == "mariposa" and password == "password":
+            prod = []
+            prod.append(len(all_products)+1)
+            prod.append(input("Enter the Product Name: "))
+            prod.append(int(input("Available: ")))
+            prod.append(int(input("Price: ")))
+            all_products.append(prod)
+        else:
+            print("Incorrect username and password")
+    else:
+        print("*************************")
+        print("*    Have a nice Day        *")
+        print("*    Goodbye!!              *")
+        print("*************************")
+        break
