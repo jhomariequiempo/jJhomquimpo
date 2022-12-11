@@ -1,0 +1,6 @@
+all_products = [
+    [1, 'Smart Phone', 35, '200'], 
+    [2, 'Head Phones', 100, '30$'], 
+    [3, 'Chargers', 200, '5$'], 
+    [4, 'Screen Guard', 100, '10$'], 
+    [5, 'Memory Cards', 100, '50$']
