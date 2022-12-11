@@ -1,0 +1,10 @@
+def order_summary(product, name):
+    print("*********************************************")
+    print("\t\tJhom Mobiles Shop")
+    print("*********************************************")
+    print("Order Summary\tDate:{}".format(str(datetime.now())))
+    print("Customer Name: {}".format(name))
+    print("Product Name: {}".format(item[1]))
+    print("Price: {}".format(item[-1]))
+    print("*********************************************")
+    print("\t\tTotal Bill Amount: {}".format(item[-1]))
